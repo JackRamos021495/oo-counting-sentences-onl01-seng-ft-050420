@@ -19,5 +19,6 @@ class String
     setennces.delete_if do |sentence|
       sentence.empty?
     end
+    sentences.length
   end
 end
