@@ -15,10 +15,10 @@ class String
   end
 
   def count_sentences
-    new_array = self.split(/[.?!]/).reject do |string|
-      string.empty?
+    sentences = self.split(/[.?!]/).reject do |sentence|
+      sentence.empty?
     end
-    new_array.length
+    sentences.length
 end
 
 end
