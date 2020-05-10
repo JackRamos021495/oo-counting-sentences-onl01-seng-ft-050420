@@ -20,5 +20,4 @@ class String
       sentence.empty?
     end
     sentences.length
-  end
 end
