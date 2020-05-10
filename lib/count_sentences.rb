@@ -21,3 +21,5 @@ class String
     end
     sentences.length
 end
+
+end
